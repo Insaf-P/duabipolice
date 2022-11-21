@@ -3,8 +3,9 @@
 
 	// Overview Chart
 	var options = {
+		
 		chart: {
-			height: 230,
+			// height: 230,
 			type: 'area',
 			stacked: !0,
 			toolbar: {
@@ -75,7 +76,7 @@
 	//Trafic vilation-chart
 	var options = {
 		chart: {
-			height: 230,
+			// height: 230,
 			type: 'area',
 			stacked: !0,
 			toolbar: {
