@@ -4,7 +4,7 @@
 	// Overview Chart
 	var options = {
 		chart: {
-			height: 230,
+			// height: 230,
 			type: 'area',
 			stacked: !0,
 			toolbar: {
@@ -27,6 +27,7 @@
 				left: 0,
 				right: 0,
 			},
+			borderColor: '#transparent',
 			strokeDashArray: 1,
 		},
 		markers: {
@@ -75,7 +76,7 @@
 	//Trafic vilation-chart
 	var options = {
 		chart: {
-			height: 230,
+			// height: 230,
 			type: 'area',
 			stacked: !0,
 			toolbar: {
@@ -98,6 +99,7 @@
 				left: 0,
 				right: 0,
 			},
+			borderColor: '#transparent',
 			strokeDashArray: 1,
 		},
 		markers: {
@@ -107,12 +109,12 @@
 			},
 		},
 		series: [
-			{ name: 'Traffic Violation', data: [0, 70, 40, 120] },
+			{ name: 'Traffic Violation', data: [0, 70, 40, 120, 90] },
 			//{ name: "Unique Visits", data: [0, 45, 10, 75] },
 		],
 		xaxis: {
 			type: 'month',
-			categories: ['OCT09', 'OCT11', 'OCT13', 'OCT15'],
+			categories: ['OCT09', 'OCT11', 'OCT13', 'OCT15', 'OCT16'],
 			axisBorder: {
 				show: !0,
 			},
@@ -120,6 +122,12 @@
 				show: !0,
 			},
 		},
+		yaxis: {
+			lines: {
+				show: true,
+			},
+		},
+
 		fill: {
 			type: 'gradient',
 			gradient: {
