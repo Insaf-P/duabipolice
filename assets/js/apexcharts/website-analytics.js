@@ -3,6 +3,7 @@
 
 	// Overview Chart
 	var options = {
+		
 		chart: {
 			// height: 230,
 			type: 'area',
